@@ -1,0 +1,387 @@
+{{ define "main" }}
+<div class="templates-page">
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1 class="page-title">Excel Templates</h1>
+                <p class="page-description">Discover our collection of professional Excel templates designed to boost your productivity and streamline your workflow.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filters and Search -->
+    <section class="templates-filters">
+        <div class="container">
+            <div class="filters-wrapper">
+                <!-- Search Bar -->
+                <div class="search-wrapper">
+                    <div class="search-box">
+                        <input type="text" id="template-search" placeholder="Search templates..." class="search-input">
+                        <button class="search-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+                                <path d="m21 21-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Category Filter -->
+                <div class="filter-group">
+                    <label for="category-filter" class="filter-label">Category:</label>
+                    <select id="category-filter" class="filter-select">
+                        <option value="">All Categories</option>
+                        {{ range .Site.Taxonomies.categories }}
+                        <option value="{{ .Page.Title }}">{{ .Page.Title }} ({{ .Count }})</option>
+                        {{ end }}
+                    </select>
+                </div>
+
+                <!-- Sort Options -->
+                <div class="filter-group">
+                    <label for="sort-filter" class="filter-label">Sort by:</label>
+                    <select id="sort-filter" class="filter-select">
+                        <option value="newest">Newest First</option>
+                        <option value="oldest">Oldest First</option>
+                        <option value="name-asc">Name A-Z</option>
+                        <option value="name-desc">Name Z-A</option>
+                    </select>
+                </div>
+
+                <!-- Clear Filters Button -->
+                <button class="clear-filters" id="clear-filters" style="display: none;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2"/>
+                        <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    Clear Filters
+                </button>
+
+
+            </div>
+            
+            <!-- Active Filters -->
+            <div class="active-filters" id="active-filters" style="display: none;"></div>
+        </div>
+    </section>
+
+    <!-- Templates Grid -->
+    <section class="templates-section">
+        <div class="container">
+            <!-- Results Info -->
+            <div class="results-info">
+                <span class="results-count" id="results-count">
+                    {{ $paginator := .Paginate .Pages }}
+                    Showing <strong>{{ len $paginator.Pages }}</strong> of <strong>{{ $paginator.TotalNumberOfElements }}</strong> templates
+                    {{ if gt $paginator.TotalPages 1 }}
+                        (Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }})
+                    {{ end }}
+                </span>
+                <div class="results-actions">
+                    <button class="btn btn-outline btn-sm" id="export-results" style="display: none;">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Export List
+                    </button>
+                </div>
+            </div>
+
+            <!-- Templates Grid -->
+            <div class="templates-grid" id="templates-grid">
+                <!-- 显示所有模板，让JavaScript处理筛选和分页 -->
+                {{ range .Site.RegularPages }}
+                    {{ if eq .Section "templates" }}
+                        {{ partial "template-card.html" (dict "template" . "showCategory" true "cardSize" "medium" "showMeta" true) }}
+                    {{ end }}
+                {{ end }}
+            </div>
+            
+            <!-- 分页导航 -->
+            <div class="pagination-section" id="pagination-section">
+                <div class="pagination" id="pagination">
+                    <!-- JavaScript将在这里生成分页导航 -->
+                </div>
+            </div>
+
+            <!-- No Results Message -->
+            <div class="no-results" id="no-results" style="display: none;">
+                <div class="no-results-content">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+                        <path d="m21 21-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <h3>No templates found</h3>
+                    <p>Try adjusting your search criteria or browse all categories.</p>
+                    <a href="/templates/" class="btn btn-primary">View All Templates</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section">
+        <div class="container">
+            <h2 class="section-title">Browse by Category</h2>
+            <div class="categories-grid">
+                {{ range .Site.Taxonomies.categories }}
+                <a href="{{ .Page.Permalink }}" class="category-card">
+                    <div class="category-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">{{ .Page.Title }}</h3>
+                    <p class="category-count">{{ .Count }} templates</p>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Template Filtering and Sorting Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('template-search');
+    const categoryFilter = document.getElementById('category-filter');
+    const sortFilter = document.getElementById('sort-filter');
+    const templatesGrid = document.getElementById('templates-grid');
+    const templateCards = document.querySelectorAll('.template-card');
+    const noResults = document.getElementById('no-results');
+    const resultsCount = document.querySelector('.results-count');
+    const paginationSection = document.getElementById('pagination-section');
+    const pagination = document.getElementById('pagination');
+    
+    let allCards = Array.from(templateCards);
+    let filteredCards = [...allCards];
+    let currentPage = 1;
+    const itemsPerPage = 20; // 4行 x 5列 = 20个模板
+    let isFiltered = false;
+
+    // 初始化
+    init();
+
+    // 事件监听器
+    searchInput.addEventListener('input', handleFilter);
+    categoryFilter.addEventListener('change', handleFilter);
+    sortFilter.addEventListener('change', handleSort);
+
+    /**
+     * 初始化页面
+     */
+    function init() {
+        sortTemplates();
+        showPage(1);
+        updatePagination();
+    }
+
+    /**
+     * 处理筛选
+     */
+    function handleFilter() {
+        const searchTerm = searchInput.value.toLowerCase();
+        const selectedCategory = categoryFilter.value.toLowerCase();
+
+        // 检查是否有筛选条件
+        isFiltered = searchTerm !== '' || selectedCategory !== '';
+
+        filteredCards = allCards.filter(card => {
+            const title = card.dataset.title.toLowerCase();
+            const categories = card.dataset.category.toLowerCase();
+            
+            const matchesSearch = title.includes(searchTerm);
+            const matchesCategory = !selectedCategory || categories.includes(selectedCategory);
+            
+            return matchesSearch && matchesCategory;
+        });
+
+        sortTemplates();
+        currentPage = 1; // 重置到第一页
+        showPage(1);
+        updatePagination();
+        updateResultsCount();
+    }
+
+    /**
+     * 处理排序
+     */
+    function handleSort() {
+        sortTemplates();
+        showPage(currentPage);
+    }
+
+    /**
+     * 排序模板
+     */
+    function sortTemplates() {
+        const sortBy = sortFilter.value;
+        
+        filteredCards.sort((a, b) => {
+            switch (sortBy) {
+                case 'newest':
+                    return new Date(b.dataset.date) - new Date(a.dataset.date);
+                case 'oldest':
+                    return new Date(a.dataset.date) - new Date(b.dataset.date);
+                case 'name-asc':
+                    return a.dataset.title.localeCompare(b.dataset.title);
+                case 'name-desc':
+                    return b.dataset.title.localeCompare(a.dataset.title);
+                default:
+                    return 0;
+            }
+        });
+    }
+
+    /**
+     * 显示指定页面的内容
+     */
+    function showPage(page) {
+        currentPage = page;
+        
+        // 隐藏所有卡片
+        allCards.forEach(card => {
+            card.style.display = 'none';
+        });
+
+        // 计算当前页面要显示的卡片
+        const startIndex = (page - 1) * itemsPerPage;
+        const endIndex = startIndex + itemsPerPage;
+        const pageCards = filteredCards.slice(startIndex, endIndex);
+
+        // 显示当前页面的卡片
+        pageCards.forEach(card => {
+            card.style.display = 'block';
+        });
+
+        // 显示/隐藏无结果消息
+        if (filteredCards.length === 0) {
+            noResults.style.display = 'block';
+            paginationSection.style.display = 'none';
+        } else {
+            noResults.style.display = 'none';
+            paginationSection.style.display = 'block';
+        }
+    }
+
+    /**
+     * 更新分页导航
+     */
+    function updatePagination() {
+        const totalPages = Math.ceil(filteredCards.length / itemsPerPage);
+        
+        if (totalPages <= 1) {
+            paginationSection.style.display = 'none';
+            return;
+        }
+
+        paginationSection.style.display = 'block';
+        
+        let paginationHTML = '';
+
+        // 上一页按钮
+        if (currentPage > 1) {
+            paginationHTML += `
+                <button class="pagination-btn pagination-prev" onclick="goToPage(${currentPage - 1})" aria-label="Previous page">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Previous
+                </button>
+            `;
+        } else {
+            paginationHTML += `
+                <span class="pagination-btn pagination-prev disabled">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Previous
+                </span>
+            `;
+        }
+
+        // 页码
+        paginationHTML += '<div class="pagination-numbers">';
+        
+        // 第一页
+        if (currentPage > 3) {
+            paginationHTML += `<button class="pagination-number" onclick="goToPage(1)">1</button>`;
+            if (currentPage > 4) {
+                paginationHTML += '<span class="pagination-ellipsis">...</span>';
+            }
+        }
+
+        // 当前页面周围的页码
+        for (let i = Math.max(1, currentPage - 2); i <= Math.min(totalPages, currentPage + 2); i++) {
+            if (i === currentPage) {
+                paginationHTML += `<span class="pagination-number current" aria-current="page">${i}</span>`;
+            } else {
+                paginationHTML += `<button class="pagination-number" onclick="goToPage(${i})">${i}</button>`;
+            }
+        }
+
+        // 最后一页
+        if (currentPage < totalPages - 2) {
+            if (currentPage < totalPages - 3) {
+                paginationHTML += '<span class="pagination-ellipsis">...</span>';
+            }
+            paginationHTML += `<button class="pagination-number" onclick="goToPage(${totalPages})">${totalPages}</button>`;
+        }
+
+        paginationHTML += '</div>';
+
+        // 下一页按钮
+        if (currentPage < totalPages) {
+            paginationHTML += `
+                <button class="pagination-btn pagination-next" onclick="goToPage(${currentPage + 1})" aria-label="Next page">
+                    Next
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            `;
+        } else {
+            paginationHTML += `
+                <span class="pagination-btn pagination-next disabled">
+                    Next
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+            `;
+        }
+
+        pagination.innerHTML = paginationHTML;
+    }
+
+    /**
+     * 更新结果计数
+     */
+    function updateResultsCount() {
+        if (isFiltered) {
+            resultsCount.innerHTML = `Showing <strong>${filteredCards.length}</strong> filtered templates`;
+        } else {
+            resultsCount.innerHTML = `Showing <strong>${filteredCards.length}</strong> templates`;
+        }
+    }
+
+    /**
+     * 跳转到指定页面
+     */
+    window.goToPage = function(page) {
+        showPage(page);
+        updatePagination();
+        
+        // 滚动到页面顶部
+        document.querySelector('.templates-section').scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'start'
+        });
+    };
+
+});
+</script>
+{{ end }}

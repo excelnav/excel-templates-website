@@ -1,0 +1,19 @@
+{{- $searchablePages := where .Site.RegularPages "Type" "in" (slice "templates" "page") -}}
+[
+  {{- range $index, $page := $searchablePages -}}
+  {{- if not .Draft -}}
+  {{- if $index }},{{ end }}
+  {
+    "title": {{ $page.Title | jsonify }},
+    "permalink": {{ $page.Permalink | jsonify }},
+    "summary": {{ ($page.Summary | plainify) | jsonify }},
+    "content": {{ ($page.Content | plainify | truncate 300) | jsonify }},
+    "date": {{ $page.Date.Format "2006-01-02" | jsonify }},
+    "categories": {{ $page.Params.categories | jsonify }},
+    "tags": {{ $page.Params.tags | jsonify }},
+    "type": {{ $page.Type | jsonify }},
+    "section": {{ $page.Section | jsonify }}
+  }
+  {{- end -}}
+  {{- end }}
+]

@@ -1,0 +1,36 @@
+# Cloudflare Pages Headers Configuration
+
+# 缓存静态资源
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# 缓存图片
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# 缓存CSS和JS
+*.css
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: text/css
+
+*.js
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: application/javascript
+
+# 安全头部
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# CORS for downloads
+/downloads/*
+  Access-Control-Allow-Origin: *
+  Content-Disposition: attachment
+
+# JSON API
+/index.json
+  Content-Type: application/json
+  Cache-Control: public, max-age=3600

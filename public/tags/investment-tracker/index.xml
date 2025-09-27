@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Investment Tracker on ExcelNav</title>
+    <link>https://excelnav.com/tags/investment-tracker/</link>
+    <description>Recent content in Investment Tracker on ExcelNav</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://excelnav.com/tags/investment-tracker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Annuity investment calculator</title>
+      <link>https://excelnav.com/templates/annuity-investment-calculator/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://excelnav.com/templates/annuity-investment-calculator/</guid>
+      <description>&lt;h2 id=&#34;annuity-investment-calculator--excel-template&#34;&gt;Annuity Investment Calculator – Excel Template&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1detailed-description&#34;&gt;（1）Detailed Description&lt;/h3&gt;&#xA;&lt;p&gt;The Annuity Investment Calculator is a powerful Excel-based tool designed to simulate and track the growth of an annuity investment over time. Users can input the initial present value, annual interest rate, investment term, and monthly reinvestment rate to automatically calculate monthly interest earned, payout amounts, and updated balances. The template supports up to 20 years (240 months) of detailed monthly analysis and highlights key milestones such as the 7-year, 10-year, 14-year, and 20-year marks. Ideal for individual investors, financial advisors, and educational purposes, this tool helps visualize compound interest and long-term investment returns effectively.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

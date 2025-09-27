@@ -1,0 +1,141 @@
+baseURL = "https://excelnav.com/"
+languageCode = "en-US"
+title = "ExcelNav"
+theme = "custom"
+
+# 网站描述和SEO设置
+[params]
+  # 分页配置
+  paginate = 20
+  paginatePath = "page"
+  description = "Download free professional Excel templates at ExcelNav.com. Boost your productivity with our carefully curated collection of business, finance, and personal spreadsheet templates."
+  keywords = "excel templates, free spreadsheets, business templates, productivity tools, budget tracker, invoice generator, project management"
+  author = "ExcelNav Team"
+  enableAds = false # 审核期间关闭广告，审核通过后改为 true
+  
+  # Google AdSense 配置
+  [params.adsense]
+    publisher_id = "ca-pub-XXXXXXXXXX"  # 替换为您的 AdSense 发布商 ID
+    enable_auto_ads = false
+    
+    # 广告位配置
+    [params.adsense.slots]
+      header_banner = "XXXXXXXXXX"      # 页面顶部横幅广告
+      sidebar_square = "XXXXXXXXXX"     # 侧边栏方形广告
+      content_inline = "XXXXXXXXXX"     # 内容中间插入广告
+      footer_banner = "XXXXXXXXXX"      # 页面底部横幅广告
+      mobile_banner = "XXXXXXXXXX"      # 移动端横幅广告
+  
+  # 网站信息
+  siteName = "ExcelNav"
+  siteUrl = "https://excelnav.com"
+  contactEmail = "contact@excelnav.com"
+  
+  # 网站特色
+  hero_title = "Professional Excel Templates"
+  hero_subtitle = "Free, High-Quality Spreadsheet Templates for Every Need"
+  hero_description = "Download professionally designed Excel templates to streamline your work. From budgeting to project management, we've got you covered."
+
+# 菜单配置
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "templates"
+  name = "All Templates"
+  url = "/templates/"
+  weight = 2
+
+# [[menu.main]]
+#  identifier = "categories"
+#  name = "Categories"
+#  url = "/categories/"
+#  weight = 3
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 4
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 5
+
+# 分类法配置
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# 相关内容配置
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+  [[related.indices]]
+    name = "tags"
+    weight = 80
+  [[related.indices]]
+    name = "date"
+    weight = 10
+
+# 输出格式
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+
+# Markdown配置
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+
+# SEO和性能优化
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+# 图片处理
+[imaging]
+  resampleFilter = "lanczos"
+  quality = 85
+  anchor = "smart"
+
+# 缓存配置
+[caches]
+  [caches.getjson]
+    dir = ":cacheDir/:project"
+    maxAge = "10m"
+  [caches.getcsv]
+    dir = ":cacheDir/:project"
+    maxAge = "10m"
+  [caches.images]
+    dir = ":resourceDir/_gen"
+    maxAge = "720h"
+
+# 隐私设置
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = true
+    anonymizeIP = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
+# 服务配置
+[services]
+  [services.googleAnalytics]
+    ID = "G-XXXXXXXXXX"  # 替换为实际的GA ID

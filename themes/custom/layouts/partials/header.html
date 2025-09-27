@@ -1,0 +1,47 @@
+<!-- Header Navigation -->
+<header class="site-header">
+    <nav class="navbar">
+        <div class="container">
+            <!-- Logo/Brand -->
+            <div class="navbar-brand">
+                <a href="{{ .Site.BaseURL }}" class="brand-link">
+                    <img src="{{ "images/logo.png" | absURL }}" alt="{{ .Site.Params.siteName | default .Site.Title }}" class="brand-icon" width="32" height="32">
+                    <span class="brand-text">{{ .Site.Params.siteName | default .Site.Title }}</span>
+                </a>
+            </div>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <!-- Navigation Menu -->
+            <div class="navbar-menu">
+                <ul class="navbar-nav">
+                    {{ range .Site.Menus.main }}
+                    <li class="nav-item">
+                        <a href="{{ .URL }}" class="nav-link {{ if $.IsMenuCurrent "main" . }}active{{ end }}">
+                            {{ .Name }}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+                
+                <!-- Search Box -->
+                <div class="search-box">
+                    <form class="search-form" action="/search" method="get">
+                        <input type="search" name="q" placeholder="Search templates..." class="search-input" aria-label="Search">
+                        <button type="submit" class="search-button" aria-label="Search">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+                                <path d="m21 21-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

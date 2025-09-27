@@ -1,0 +1,167 @@
+{{ define "main" }}
+<div class="container">
+    <article class="single-page">
+        <header class="page-header">
+            <nav class="breadcrumb">
+                <a href="/">Home</a>
+                <span>/</span>
+                <span>{{ .Title }}</span>
+            </nav>
+            <h1>{{ .Title }}</h1>
+            {{ if .Description }}
+            <p class="lead">{{ .Description }}</p>
+            {{ end }}
+            {{ if .Date }}
+            <div class="page-meta">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">
+                    <i class="fas fa-calendar"></i>
+                    {{ .Date.Format "January 2, 2006" }}
+                </time>
+            </div>
+            {{ end }}
+        </header>
+
+        <div class="page-content">
+            {{ .Content }}
+        </div>
+
+        {{ if .Params.show_related | default true }}
+        <aside class="related-content">
+            <h3>Related Pages</h3>
+            <div class="related-links">
+                <a href="/templates/" class="related-link">
+                    <i class="fas fa-file-excel"></i>
+                    <span>Browse All Templates</span>
+                </a>
+                <a href="/categories/" class="related-link">
+                    <i class="fas fa-folder"></i>
+                    <span>Template Categories</span>
+                </a>
+                <a href="/" class="related-link">
+                    <i class="fas fa-home"></i>
+                    <span>Back to Home</span>
+                </a>
+            </div>
+        </aside>
+        {{ end }}
+    </article>
+</div>
+
+<style>
+.single-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.page-header {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.page-header .lead {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.page-meta {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.page-meta i {
+    margin-right: 0.5rem;
+}
+
+.page-content {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.page-content h2 {
+    color: var(--primary-color);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.page-content h3 {
+    color: var(--secondary-color);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.page-content ul, .page-content ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.page-content li {
+    margin-bottom: 0.5rem;
+}
+
+.related-content {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.related-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.related-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.related-link {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: var(--bg-light);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.related-link:hover {
+    background: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.related-link i {
+    font-size: 1.2rem;
+    margin-right: 0.75rem;
+    color: var(--primary-color);
+}
+
+.related-link:hover i {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .single-page {
+        padding: 1rem;
+    }
+    
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    .related-links {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+{{ end }}

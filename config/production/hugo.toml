@@ -1,0 +1,44 @@
+# 生产环境配置 - 支持CDN分离
+
+# 基础配置继承自主配置文件
+
+[params]
+  # CDN配置
+  useExternalCDN = true
+  downloadsCDN = "https://downloads.your-domain.com"  # 替换为您的下载CDN域名
+  imagesCDN = "https://images.your-domain.com"        # 替换为您的图片CDN域名
+  
+  # 资源优化
+  minifyHTML = true
+  minifyCSS = true
+  minifyJS = true
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      keepCSS2 = true
+      precision = 0
+    [minify.tdewolff.html]
+      keepComments = false
+      keepConditionalComments = true
+      keepDefaultAttrVals = true
+      keepDocumentTags = true
+      keepEndTags = true
+      keepQuotes = false
+      keepWhitespace = false
+    [minify.tdewolff.js]
+      keepVarNames = false
+      precision = 0
+    [minify.tdewolff.json]
+      precision = 0
+    [minify.tdewolff.svg]
+      precision = 0
+    [minify.tdewolff.xml]
+      keepWhitespace = false

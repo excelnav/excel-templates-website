@@ -1,0 +1,38 @@
+{{ define "main" }}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">100% Free Excel Templates</h1>
+            <p class="hero-subtitle">Professional Excel Template Library to Boost Your Productivity: Completely Free to Download and Use.​</p>
+            
+            <!-- CTA Button -->
+            <div class="hero-actions">
+                <a href="/templates/" class="btn btn-primary">View All</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Templates Section -->
+<section id="featured" class="featured-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Featured Templates</h2>
+            <p>Hand-picked templates that are most popular among our users</p>
+        </div>
+        
+        <div class="templates-grid">
+            {{ range first 10 (where site.RegularPages "Type" "templates").ByDate.Reverse }}
+                {{ partial "template-card.html" (dict "template" . "showCategory" true "cardSize" "medium") }}
+            {{ end }}
+        </div>
+        
+        <div class="section-footer">
+            <a href="/templates/" class="btn btn-outline">View All Templates</a>
+        </div>
+    </div>
+</section>
+
+
+{{ end }}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gantt Chart on ExcelNav</title>
+    <link>https://excelnav.com/tags/gantt-chart/</link>
+    <description>Recent content in Gantt Chart on ExcelNav</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://excelnav.com/tags/gantt-chart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agile Gantt chart</title>
+      <link>https://excelnav.com/templates/agile-gantt-chart/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://excelnav.com/templates/agile-gantt-chart/</guid>
+      <description>&lt;h2 id=&#34;agile-gantt-chart-excel-template--documentation&#34;&gt;Agile Gantt Chart Excel Template – Documentation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-detailed-description&#34;&gt;1. Detailed Description&lt;/h3&gt;&#xA;&lt;p&gt;The Agile Gantt Chart Excel Template is a visual project management tool designed for agile teams and individuals to plan, track, and manage project timelines efficiently. It allows users to input tasks, set milestones, assign risk levels, and automatically generate a dynamic Gantt chart. By simply entering task details such as start date, duration, and progress percentage, users can visualize project flow and monitor deadlines with ease. Ideal for small to medium-sized projects, it supports flexible adjustments and clear progress tracking in an agile environment.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

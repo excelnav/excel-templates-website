@@ -1,0 +1,141 @@
+{{ define "main" }}
+<div class="container">
+    <div class="page-header">
+        <nav class="breadcrumb">
+            <a href="/">Home</a>
+            <span>/</span>
+            <a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a>
+            <span>/</span>
+            <span>{{ .Title }}</span>
+        </nav>
+        <h1>{{ .Title }} Templates</h1>
+        <p class="lead">{{ .Description | default (printf "Discover our collection of %s Excel templates" .Title) }}</p>
+    </div>
+
+    <div class="filters-section">
+        <div class="filter-controls">
+            <div class="search-box">
+                <input type="text" id="template-search" placeholder="Search templates...">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="sort-controls">
+                <select id="sort-templates">
+                    <option value="newest">Newest First</option>
+                    <option value="oldest">Oldest First</option>
+                    <option value="name">Name A-Z</option>
+                    <option value="popularity">Most Popular</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="templates-grid" id="templates-container">
+        {{ range .Pages }}
+        <div class="template-card" data-category="{{ .Params.category }}" data-difficulty="{{ .Params.difficulty }}" data-name="{{ .Title }}">
+            <div class="template-image">
+                {{ if .Params.preview_image }}
+                <img src="{{ .Params.preview_image | relURL }}" alt="{{ .Title }}" loading="lazy">
+                {{ else }}
+                <div class="placeholder-image">
+                    <i class="fas fa-file-excel"></i>
+                    <span>Excel Template</span>
+                </div>
+                {{ end }}
+                <div class="template-overlay">
+                    <a href="{{ .Permalink }}" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+            <div class="template-info">
+                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <p>{{ .Summary | truncate 100 }}</p>
+                <div class="template-meta">
+                    <span class="category">{{ .Params.category }}</span>
+                    <span class="difficulty">{{ .Params.difficulty | default "Beginner" }}</span>
+                    {{ if .Params.rating }}
+                    <div class="rating">
+                        {{ range seq (int .Params.rating) }}
+                        <i class="fas fa-star"></i>
+                        {{ end }}
+                        {{ range seq (sub 5 (int .Params.rating)) }}
+                        <i class="far fa-star"></i>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+                <div class="template-actions">
+                    {{ if .Params.download_url }}
+                    <a href="{{ .Params.download_url | relURL }}" class="btn btn-secondary" download onclick="trackDownload('{{ .Title }}')">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                    {{ end }}
+                    <button class="btn btn-outline" onclick="shareTemplate('{{ .Permalink }}', '{{ .Title }}')">
+                        <i class="fas fa-share"></i> Share
+                    </button>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
+    {{ if eq (len .Pages) 0 }}
+    <div class="empty-state">
+        <i class="fas fa-search"></i>
+        <h3>No templates found</h3>
+        <p>We couldn't find any {{ .Title }} templates. Check back soon for new additions!</p>
+        <a href="/templates/" class="btn btn-primary">Browse All Templates</a>
+    </div>
+    {{ end }}
+
+    <!-- Pagination -->
+    {{ if .Paginator.HasPrev }}
+    <div class="pagination">
+        <a href="{{ .Paginator.Prev.URL }}" class="btn btn-outline">
+            <i class="fas fa-chevron-left"></i> Previous
+        </a>
+        {{ if .Paginator.HasNext }}
+        <a href="{{ .Paginator.Next.URL }}" class="btn btn-outline">
+            Next <i class="fas fa-chevron-right"></i>
+        </a>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+
+<script>
+// 模板搜索和筛选功能
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('template-search');
+    const sortSelect = document.getElementById('sort-templates');
+    const templatesContainer = document.getElementById('templates-container');
+    const templateCards = Array.from(templatesContainer.querySelectorAll('.template-card'));
+
+    // 搜索功能
+    searchInput.addEventListener('input', function() {
+        const searchTerm = this.value.toLowerCase();
+        templateCards.forEach(card => {
+            const title = card.dataset.name.toLowerCase();
+            const category = card.dataset.category.toLowerCase();
+            const isVisible = title.includes(searchTerm) || category.includes(searchTerm);
+            card.style.display = isVisible ? 'block' : 'none';
+        });
+    });
+
+    // 排序功能
+    sortSelect.addEventListener('change', function() {
+        const sortBy = this.value;
+        const sortedCards = [...templateCards].sort((a, b) => {
+            switch(sortBy) {
+                case 'name':
+                    return a.dataset.name.localeCompare(b.dataset.name);
+                case 'category':
+                    return a.dataset.category.localeCompare(b.dataset.category);
+                default:
+                    return 0;
+            }
+        });
+        
+        sortedCards.forEach(card => templatesContainer.appendChild(card));
+    });
+});
+</script>
+{{ end }}
