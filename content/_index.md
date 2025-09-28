@@ -1,5 +1,5 @@
 ---
-title: "ExcelNav"
+title: "ExcelNav-100% Free Excel Templates"
 description: "Download free professional Excel templates at ExcelNav.com. Boost your productivity with our carefully curated collection of business, finance, and personal spreadsheet templates."
 type: "homepage"
 layout: "index"
