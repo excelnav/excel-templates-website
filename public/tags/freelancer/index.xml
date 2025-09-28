@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Freelancer on ExcelNav</title>
-    <link>https://excelnav.com/tags/freelancer/</link>
+    <link>http://localhost:1313/tags/freelancer/</link>
     <description>Recent content in Freelancer on ExcelNav</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 22 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://excelnav.com/tags/freelancer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/freelancer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simple olive green timesheet invoice</title>
-      <link>https://excelnav.com/templates/simple-olive-green-timesheet-invoice/</link>
+      <link>http://localhost:1313/templates/simple-olive-green-timesheet-invoice/</link>
       <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/simple-olive-green-timesheet-invoice/</guid>
+      <guid>http://localhost:1313/templates/simple-olive-green-timesheet-invoice/</guid>
       <description>&lt;h2 id=&#34;file-structure&#34;&gt;&lt;strong&gt;File Structure&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1detailed-description&#34;&gt;（1）Detailed Description&lt;/h3&gt;&#xA;&lt;p&gt;The &amp;ldquo;Simple Olive Green Timesheet Invoice&amp;rdquo; Excel template is designed for freelancers, consultants, and small businesses to efficiently track work hours and generate professional invoices. Featuring a clean olive-green layout, the template includes essential invoice details (invoice number, issue date, due date), service provider and client information sections, a time entry table, and automated calculations. Users simply input hours worked and rates, and the template automatically computes totals, subtotals, tax, and the final amount due. It supports up to 10 service entries, making it ideal for project-based work and service industries.&lt;/p&gt;</description>
     </item>
   </channel>

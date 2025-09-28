@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Activity-Based Costing on ExcelNav</title>
-    <link>https://excelnav.com/tags/activity-based-costing/</link>
+    <link>http://localhost:1313/tags/activity-based-costing/</link>
     <description>Recent content in Activity-Based Costing on ExcelNav</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://excelnav.com/tags/activity-based-costing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/activity-based-costing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Activity costs tracker</title>
-      <link>https://excelnav.com/templates/activity-costs-tracker/</link>
+      <link>http://localhost:1313/templates/activity-costs-tracker/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/activity-costs-tracker/</guid>
+      <guid>http://localhost:1313/templates/activity-costs-tracker/</guid>
       <description>&lt;h2 id=&#34;activity-costs-tracker--excel-template&#34;&gt;Activity Costs Tracker – Excel Template&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-detailed-description&#34;&gt;(1) Detailed Description&lt;/h3&gt;&#xA;&lt;p&gt;The Activity Costs Tracker is an Excel-based cost management tool designed for small and medium-sized businesses that need to accurately track cost structures across multiple product lines. Based on the Activity-Based Costing (ABC) methodology, this template categorizes expenses into direct costs, indirect costs, and general &amp;amp; administrative costs. It automatically calculates the cost per unit and total weekly production costs for each product. With a clear structure and pre-built formulas, users can generate detailed cost summaries effortlessly, enabling better financial control and informed decision-making. Ideal for managers, accountants, and business owners seeking a practical and efficient way to monitor product profitability.&lt;/p&gt;</description>
     </item>
   </channel>

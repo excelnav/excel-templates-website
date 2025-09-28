@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ExcelNav</title>
-    <link>https://excelnav.com/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on ExcelNav</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://excelnav.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Business &amp; Entrepreneurship​</title>
-      <link>https://excelnav.com/categories/business--entrepreneurship/</link>
+      <link>http://localhost:1313/categories/business--entrepreneurship/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/categories/business--entrepreneurship/</guid>
+      <guid>http://localhost:1313/categories/business--entrepreneurship/</guid>
       <description></description>
     </item>
     <item>
       <title>Education &amp; Learning</title>
-      <link>https://excelnav.com/categories/education--learning/</link>
+      <link>http://localhost:1313/categories/education--learning/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/categories/education--learning/</guid>
+      <guid>http://localhost:1313/categories/education--learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance &amp; Accounting</title>
-      <link>https://excelnav.com/categories/finance--accounting/</link>
+      <link>http://localhost:1313/categories/finance--accounting/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/categories/finance--accounting/</guid>
+      <guid>http://localhost:1313/categories/finance--accounting/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance &amp; Accounting​</title>
-      <link>https://excelnav.com/categories/finance--accounting/</link>
+      <link>http://localhost:1313/categories/finance--accounting/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/categories/finance--accounting/</guid>
+      <guid>http://localhost:1313/categories/finance--accounting/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal Life &amp; Family</title>
-      <link>https://excelnav.com/categories/personal-life--family/</link>
+      <link>http://localhost:1313/categories/personal-life--family/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/categories/personal-life--family/</guid>
+      <guid>http://localhost:1313/categories/personal-life--family/</guid>
       <description></description>
     </item>
     <item>
       <title>Project Management</title>
-      <link>https://excelnav.com/categories/project-management/</link>
+      <link>http://localhost:1313/categories/project-management/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/categories/project-management/</guid>
+      <guid>http://localhost:1313/categories/project-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Business &amp; Entrepreneurship</title>
-      <link>https://excelnav.com/categories/business--entrepreneurship/</link>
+      <link>http://localhost:1313/categories/business--entrepreneurship/</link>
       <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/categories/business--entrepreneurship/</guid>
+      <guid>http://localhost:1313/categories/business--entrepreneurship/</guid>
       <description></description>
     </item>
   </channel>

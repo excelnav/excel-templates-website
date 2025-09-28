@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CRM on ExcelNav</title>
-    <link>https://excelnav.com/tags/crm/</link>
+    <link>http://localhost:1313/tags/crm/</link>
     <description>Recent content in CRM on ExcelNav</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://excelnav.com/tags/crm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/crm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Streamline Client Management: Customizable Business Contact List Template with Geographic Analytics</title>
-      <link>https://excelnav.com/templates/basic-customer-contact-list/</link>
+      <link>http://localhost:1313/templates/basic-customer-contact-list/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/basic-customer-contact-list/</guid>
+      <guid>http://localhost:1313/templates/basic-customer-contact-list/</guid>
       <description>&lt;h2 id=&#34;1-detailed-description&#34;&gt;(1) Detailed Description&lt;/h2&gt;&#xA;&lt;p&gt;The Basic Customer Contact List is a structured Excel template designed for SME customer relationship management. It systematically records customer ID, company name, detailed contact information (including name, title, communication channels) and geographic data (address, city, ZIP code, etc.). With standardized field formats, it seamlessly integrates with mainstream CRM systems to help users efficiently maintain client networks, optimize communication workflows, and analyze regional business distribution. Ideal for teams requiring regular customer follow-ups, regional marketing, or sales management.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Education &amp; Learning on ExcelNav</title>
-    <link>https://excelnav.com/categories/education--learning/</link>
+    <link>http://localhost:1313/categories/education--learning/</link>
     <description>Recent content in Education &amp; Learning on ExcelNav</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://excelnav.com/categories/education--learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/education--learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>《Ultimate Assignment Tracker: Course Management &#43; Dynamic Filters &#43; Progress Visualization》</title>
-      <link>https://excelnav.com/templates/assignment-schedule/</link>
+      <link>http://localhost:1313/templates/assignment-schedule/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/assignment-schedule/</guid>
+      <guid>http://localhost:1313/templates/assignment-schedule/</guid>
       <description>&lt;h2 id=&#34;excel-template--documentation&#34;&gt;Excel Template – Documentation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-detailed-description&#34;&gt;(1) ​Detailed Description​&lt;/h3&gt;&#xA;&lt;p&gt;《Assignment Schedule.xlsx》is an education-focused task tracking spreadsheet designed for students, instructors, or training coordinators. It features visual progress bars, course filters, and date sorting to manage multi-course assignments efficiently. The PivotTable supports dynamic refresh, while slicers enable quick filtering by course (e.g., Basic Life Support), instructor, progress percentage (0%-100%), or due date (e.g., due in 2 days). Ideal for monitoring strict deadlines in medical training (e.g., EMT, Anatomy).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Back to School Planner: Smart Budget &#43; Task Tracker Excel Template for Parents</title>
-      <link>https://excelnav.com/templates/back-to-school-planner/</link>
+      <link>http://localhost:1313/templates/back-to-school-planner/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/back-to-school-planner/</guid>
+      <guid>http://localhost:1313/templates/back-to-school-planner/</guid>
       <description>&lt;h1 id=&#34;back-to-school-planner-the-comprehensive-guide-for-parents--student-preparation-master-list&#34;&gt;Back to School Planner: The Comprehensive Guide for Parents | Student Preparation Master List&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-detailed-description&#34;&gt;(1). Detailed Description&lt;/h2&gt;&#xA;&lt;p&gt;The Back to School Planner is a versatile Excel tool designed for parents and students to streamline pre-semester preparations. This integrated spreadsheet combines budget tracking, shopping lists, to-do tasks, and collaboration features, enabling users to allocate education expenses (e.g., textbooks, uniforms, supplies) efficiently. With real-time budget summaries and progress bars, users can monitor spending and prevent overspending. The one-click sharing functionality facilitates family collaboration.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ultimate Back-to-School Checklist: 23 Must-Do Tasks &#43; Printable</title>
-      <link>https://excelnav.com/templates/back-to-school-checklist/</link>
+      <link>http://localhost:1313/templates/back-to-school-checklist/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/back-to-school-checklist/</guid>
+      <guid>http://localhost:1313/templates/back-to-school-checklist/</guid>
       <description>&lt;h1 id=&#34;back-to-school-checklist-the-comprehensive-guide-for-parents--student-preparation-master-list&#34;&gt;Back to School Checklist: The Comprehensive Guide for Parents | Student Preparation Master List&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-detailed-description&#34;&gt;1. Detailed Description&lt;/h2&gt;&#xA;&lt;p&gt;This back-to-school checklist is the ultimate organizational tool covering 8 critical categories across 23 core tasks. Designed with smart &amp;ldquo;TO DO/TO BUY/DONE&amp;rdquo; tracking columns, it systematically manages registration paperwork, medical exams, wardrobe preparation, school supplies procurement, and transportation arrangements. Special modules include safety training (memorizing emergency contacts, practicing commute routes) and routine establishment (bedtime schedules, homework stations), ensuring both logistical and psychological readiness for the new academic year.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Academic calendar</title>
-      <link>https://excelnav.com/templates/academic-calendar/</link>
+      <link>http://localhost:1313/templates/academic-calendar/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/academic-calendar/</guid>
+      <guid>http://localhost:1313/templates/academic-calendar/</guid>
       <description>&lt;h1 id=&#34;academic-calendar-excel-template-organize-your-school-year-efficiently&#34;&gt;Academic Calendar Excel Template: Organize Your School Year Efficiently&lt;/h1&gt;&#xA;&lt;h2 id=&#34;detailed-description&#34;&gt;Detailed Description&lt;/h2&gt;&#xA;&lt;p&gt;The Academic Calendar Template is a versatile and user-friendly Excel-based tool designed to help schools, teachers, students, and parents plan and track academic activities throughout the school year. It covers a full 12-month period from September 2025 to August 2026, with each week clearly laid out from Monday to Sunday. The template uses automated formulas to generate dates and weekdays, minimizing manual input and ensuring accuracy. It’s ideal for marking important events such as parent-teacher conferences, exams, holidays, and project deadlines. Whether you’re managing a school schedule or organizing personal study plans, this template offers a structured and reusable format.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Academic club budget</title>
-      <link>https://excelnav.com/templates/academic-club-budget/</link>
+      <link>http://localhost:1313/templates/academic-club-budget/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/academic-club-budget/</guid>
+      <guid>http://localhost:1313/templates/academic-club-budget/</guid>
       <description>&lt;h2 id=&#34;file-structure&#34;&gt;&lt;strong&gt;File Structure&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1detailed-description&#34;&gt;（1）Detailed Description&lt;/h3&gt;&#xA;&lt;p&gt;The Academic Club Budget is a financial management tool designed specifically for school academic clubs to track annual income and expenses effectively. It includes revenue sources such as membership dues, fundraisers, and donations, as well as common expenses like flyer printing and decorations. The sheet automatically calculates the budget for trips and the remaining amount needed, providing a clear overview of the club&amp;rsquo;s financial status. Ideal for middle schools, high schools, and universities, this template promotes financial transparency and efficient budget management for student-led organizations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Free Printable 2025 Monthly Calendar Template - Organize Your Year with Ease</title>
-      <link>https://excelnav.com/templates/any-year-calendar-1-month-per-tab/</link>
+      <link>http://localhost:1313/templates/any-year-calendar-1-month-per-tab/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/any-year-calendar-1-month-per-tab/</guid>
+      <guid>http://localhost:1313/templates/any-year-calendar-1-month-per-tab/</guid>
       <description>&lt;h2 id=&#34;allowance-tracker-excel-template--documentation&#34;&gt;Allowance tracker Excel Template – Documentation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1detailed-description&#34;&gt;（1）Detailed Description&lt;/h3&gt;&#xA;&lt;p&gt;This Excel calendar template is designed for 2025, featuring 12 separate monthly tabs with a Sunday-start layout. Each page includes clear date/weekday labels and a &amp;ldquo;NOTES&amp;rdquo; section for reminders. Its minimalist design is perfect for printing, ideal for personal scheduling, academic planning, or family organization.&lt;/p&gt;&#xA;&lt;h3 id=&#34;2use-cases&#34;&gt;（2）Use Cases&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Personal Use&lt;/strong&gt;: Track birthdays, medical appointments.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Education&lt;/strong&gt;: Monitor exam schedules and study progress.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Work&lt;/strong&gt;: Mark project deadlines and meetings.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Academic calendar with photos</title>
-      <link>https://excelnav.com/templates/academic-calendar-with-photos/</link>
+      <link>http://localhost:1313/templates/academic-calendar-with-photos/</link>
       <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/academic-calendar-with-photos/</guid>
+      <guid>http://localhost:1313/templates/academic-calendar-with-photos/</guid>
       <description>&lt;h2 id=&#34;file-structure&#34;&gt;&lt;strong&gt;File Structure&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1detailed-description&#34;&gt;（1）Detailed Description&lt;/h3&gt;&#xA;&lt;p&gt;This “Academic Calendar with Photos” Excel template is a visually engaging and highly functional educational planning tool designed for students, teachers, school administrators, and homeschooling parents. It spans a full academic year from September 2025 to August 2026, organized by weeks and months with automatic day and date generation. The template includes dedicated note sections for key events such as parent-teacher conferences, exams, and holidays. Its clean layout supports photo insertion for personalization, making it ideal for academic scheduling, project tracking, and visual planning. Whether used in classrooms or at home, this template helps users manage their academic year efficiently and creatively.&lt;/p&gt;</description>
     </item>
   </channel>

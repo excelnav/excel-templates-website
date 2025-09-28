@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Student Essentials on ExcelNav</title>
-    <link>https://excelnav.com/tags/student-essentials/</link>
+    <link>http://localhost:1313/tags/student-essentials/</link>
     <description>Recent content in Student Essentials on ExcelNav</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://excelnav.com/tags/student-essentials/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/student-essentials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ultimate Back-to-School Checklist: 23 Must-Do Tasks &#43; Printable</title>
-      <link>https://excelnav.com/templates/back-to-school-checklist/</link>
+      <link>http://localhost:1313/templates/back-to-school-checklist/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/back-to-school-checklist/</guid>
+      <guid>http://localhost:1313/templates/back-to-school-checklist/</guid>
       <description>&lt;h1 id=&#34;back-to-school-checklist-the-comprehensive-guide-for-parents--student-preparation-master-list&#34;&gt;Back to School Checklist: The Comprehensive Guide for Parents | Student Preparation Master List&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-detailed-description&#34;&gt;1. Detailed Description&lt;/h2&gt;&#xA;&lt;p&gt;This back-to-school checklist is the ultimate organizational tool covering 8 critical categories across 23 core tasks. Designed with smart &amp;ldquo;TO DO/TO BUY/DONE&amp;rdquo; tracking columns, it systematically manages registration paperwork, medical exams, wardrobe preparation, school supplies procurement, and transportation arrangements. Special modules include safety training (memorizing emergency contacts, practicing commute routes) and routine establishment (bedtime schedules, homework stations), ensuring both logistical and psychological readiness for the new academic year.&lt;/p&gt;</description>
     </item>
   </channel>

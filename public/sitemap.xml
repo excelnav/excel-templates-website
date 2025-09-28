@@ -2,737 +2,757 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://excelnav.com/templates/assignment-schedule/</loc>
+    <loc>http://localhost:1313/templates/assignment-schedule/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/2025/</loc>
+    <loc>http://localhost:1313/tags/2025/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/accounting-template/</loc>
+    <loc>http://localhost:1313/tags/accounting-template/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/assets-tracking/</loc>
+    <loc>http://localhost:1313/tags/assets-tracking/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/assignment-tracker/</loc>
+    <loc>http://localhost:1313/tags/assignment-tracker/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/baby-growth/</loc>
+    <loc>http://localhost:1313/tags/baby-growth/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/baby-growth-chart/</loc>
+    <loc>http://localhost:1313/templates/baby-growth-chart/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/baby-shower/</loc>
+    <loc>http://localhost:1313/tags/baby-shower/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/back-to-school/</loc>
+    <loc>http://localhost:1313/tags/back-to-school/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/back-to-school-planner/</loc>
+    <loc>http://localhost:1313/templates/back-to-school-planner/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/balance-sheet/</loc>
+    <loc>http://localhost:1313/tags/balance-sheet/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/balloon-loan/</loc>
+    <loc>http://localhost:1313/tags/balloon-loan/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/balance-sheet/</loc>
+    <loc>http://localhost:1313/templates/balance-sheet/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/billing/</loc>
+    <loc>http://localhost:1313/tags/billing/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/budget-tracker/</loc>
+    <loc>http://localhost:1313/tags/budget-tracker/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/categories/business--entrepreneurship/</loc>
+    <loc>http://localhost:1313/categories/business--entrepreneurship/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/business-contacts/</loc>
+    <loc>http://localhost:1313/tags/business-contacts/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/business-finance/</loc>
+    <loc>http://localhost:1313/tags/business-finance/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/calendar/</loc>
+    <loc>http://localhost:1313/tags/calendar/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/checklist/</loc>
+    <loc>http://localhost:1313/tags/checklist/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/child-development/</loc>
+    <loc>http://localhost:1313/tags/child-development/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/contact-list/</loc>
+    <loc>http://localhost:1313/tags/contact-list/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/course-management/</loc>
+    <loc>http://localhost:1313/tags/course-management/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/crm/</loc>
+    <loc>http://localhost:1313/tags/crm/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/any-year-custom-calendar/</loc>
+    <loc>http://localhost:1313/templates/any-year-custom-calendar/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/customer-management/</loc>
+    <loc>http://localhost:1313/tags/customer-management/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/categories/education--learning/</loc>
+    <loc>http://localhost:1313/categories/education--learning/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/education-tools/</loc>
+    <loc>http://localhost:1313/tags/education-tools/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/event-planning/</loc>
+    <loc>http://localhost:1313/tags/event-planning/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/</loc>
+    <loc>http://localhost:1313/categories/finance--accounting/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/categories/finance--accounting/</loc>
+    <loc>http://localhost:1313/categories/finance--accounting/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/categories/finance--accounting/</loc>
+    <loc>http://localhost:1313/tags/financial-analysis/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/financial-analysis/</loc>
+    <loc>http://localhost:1313/tags/financial-document/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/financial-document/</loc>
+    <loc>http://localhost:1313/tags/financial-planning/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/financial-planning/</loc>
+    <loc>http://localhost:1313/tags/financial-statement/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/financial-statement/</loc>
+    <loc>http://localhost:1313/templates/any-year-calendar-ion-theme/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/any-year-calendar-ion-theme/</loc>
+    <loc>http://localhost:1313/templates/baby-growth-tracker/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/baby-growth-tracker/</loc>
+    <loc>http://localhost:1313/templates/balance-sheet-simple/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/balance-sheet-simple/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/growth-chart/</loc>
+    <loc>http://localhost:1313/templates/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/health-tracking/</loc>
+    <loc>http://localhost:1313/tags/growth-chart/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/infant-tracker/</loc>
+    <loc>http://localhost:1313/tags/health-tracking/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/invoice-template/</loc>
+    <loc>http://localhost:1313/tags/infant-tracker/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/liabilities-calculator/</loc>
+    <loc>http://localhost:1313/tags/invoice-template/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/loan-calculator/</loc>
+    <loc>http://localhost:1313/tags/liabilities-calculator/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/mortgage-tools/</loc>
+    <loc>http://localhost:1313/tags/loan-calculator/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/organization/</loc>
+    <loc>http://localhost:1313/tags/mortgage-tools/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/parenting-checklist/</loc>
+    <loc>http://localhost:1313/tags/organization/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/parenting-tools/</loc>
+    <loc>http://localhost:1313/tags/parenting-checklist/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/party-organizer/</loc>
+    <loc>http://localhost:1313/tags/parenting-tools/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/categories/personal-life--family/</loc>
+    <loc>http://localhost:1313/tags/party-organizer/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/planner/</loc>
+    <loc>http://localhost:1313/categories/personal-life--family/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/planning/</loc>
+    <loc>http://localhost:1313/tags/planner/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/printable/</loc>
+    <loc>http://localhost:1313/tags/planning/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/productivity/</loc>
+    <loc>http://localhost:1313/tags/printable/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/basic-business-invoice/</loc>
+    <loc>http://localhost:1313/tags/productivity/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/progress-monitoring/</loc>
+    <loc>http://localhost:1313/templates/basic-business-invoice/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/school-preparation/</loc>
+    <loc>http://localhost:1313/tags/progress-monitoring/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/shopping-list/</loc>
+    <loc>http://localhost:1313/tags/school-preparation/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/small-business/</loc>
+    <loc>http://localhost:1313/tags/shopping-list/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/basic-customer-contact-list/</loc>
+    <loc>http://localhost:1313/tags/small-business/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/student-essentials/</loc>
+    <loc>http://localhost:1313/templates/basic-customer-contact-list/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/</loc>
+    <loc>http://localhost:1313/tags/student-essentials/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/time-management/</loc>
+    <loc>http://localhost:1313/tags/time-management/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/to-do-list/</loc>
+    <loc>http://localhost:1313/tags/to-do-list/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/baby-shower-planner/</loc>
+    <loc>http://localhost:1313/templates/baby-shower-planner/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/basic-balance-sheet/</loc>
+    <loc>http://localhost:1313/templates/basic-balance-sheet/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/back-to-school-checklist/</loc>
+    <loc>http://localhost:1313/templates/back-to-school-checklist/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/12-month-calendar/</loc>
+    <loc>http://localhost:1313/templates/12-month-calendar/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/2025-planner/</loc>
+    <loc>http://localhost:1313/tags/2025-planner/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/academic-calendar/</loc>
+    <loc>http://localhost:1313/templates/academic-calendar/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/academic-calendar/</loc>
+    <loc>http://localhost:1313/tags/academic-calendar/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/academic-club/</loc>
+    <loc>http://localhost:1313/tags/academic-club/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/academic-club-budget/</loc>
+    <loc>http://localhost:1313/templates/academic-club-budget/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/activity-costs-tracker/</loc>
+    <loc>http://localhost:1313/templates/activity-costs-tracker/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/activity-tracker/</loc>
+    <loc>http://localhost:1313/templates/activity-tracker/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/activity-tracking/</loc>
+    <loc>http://localhost:1313/tags/activity-tracking/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/activity-based-costing/</loc>
+    <loc>http://localhost:1313/tags/activity-based-costing/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/address-and-phone-list/</loc>
+    <loc>http://localhost:1313/templates/address-and-phone-list/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/address-book/</loc>
+    <loc>http://localhost:1313/tags/address-book/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/adjustable-meeting-agenda/</loc>
+    <loc>http://localhost:1313/tags/agenda-template-free/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/agile/</loc>
+    <loc>http://localhost:1313/tags/agile/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/agile-gantt-chart/</loc>
+    <loc>http://localhost:1313/templates/agile-gantt-chart/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/allowance-tracker/</loc>
+    <loc>http://localhost:1313/templates/allowance-tracker/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/allowance-tracker/</loc>
+    <loc>http://localhost:1313/tags/allowance-tracker/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/annuity-calculator/</loc>
+    <loc>http://localhost:1313/tags/annuity-calculator/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/annuity-investment-calculator/</loc>
+    <loc>http://localhost:1313/templates/annuity-investment-calculator/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/any-year-at-a-glance-calendar-landscape/</loc>
+    <loc>http://localhost:1313/templates/any-year-at-a-glance-calendar-landscape/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/budget-template/</loc>
+    <loc>http://localhost:1313/tags/budget-template/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/business-meeting/</loc>
+    <loc>http://localhost:1313/tags/business-meeting-planner/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/calendar-template/</loc>
+    <loc>http://localhost:1313/tags/calendar-template/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/calorie-counter/</loc>
+    <loc>http://localhost:1313/tags/calorie-counter/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/chore-chart/</loc>
+    <loc>http://localhost:1313/tags/chore-chart/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/contact-management/</loc>
+    <loc>http://localhost:1313/tags/contact-management/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/cost-tracking/</loc>
+    <loc>http://localhost:1313/tags/cost-tracking/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/customizable/</loc>
+    <loc>http://localhost:1313/tags/customizable/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/date-planning/</loc>
+    <loc>http://localhost:1313/tags/date-planning/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/education-planning/</loc>
+    <loc>http://localhost:1313/tags/education-planning/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/event-tracking/</loc>
+    <loc>http://localhost:1313/tags/event-tracking/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/excel-finance/</loc>
+    <loc>http://localhost:1313/tags/excel-finance/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/excel-template/</loc>
+    <loc>http://localhost:1313/tags/excel-meeting-agenda/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/exercise-tracker/</loc>
+    <loc>http://localhost:1313/tags/excel-template/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/family-finance/</loc>
+    <loc>http://localhost:1313/tags/exercise-tracker/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/family-schedule/</loc>
+    <loc>http://localhost:1313/tags/family-finance/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/fitness-log/</loc>
+    <loc>http://localhost:1313/tags/family-schedule/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/any-year-at-a-glance-calendar-portrait/</loc>
+    <loc>http://localhost:1313/tags/fitness-log/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/any-year-calendar-1-month-per-tab/</loc>
+    <loc>http://localhost:1313/templates/any-year-at-a-glance-calendar-portrait/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/free-template/</loc>
+    <loc>http://localhost:1313/templates/adjustable-meeting-agenda/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/gantt-chart/</loc>
+    <loc>http://localhost:1313/templates/any-year-calendar-1-month-per-tab/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/income-expense-tracking/</loc>
+    <loc>http://localhost:1313/tags/free-template/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/investment-tracker/</loc>
+    <loc>http://localhost:1313/tags/gantt-chart/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/kids-tasks/</loc>
+    <loc>http://localhost:1313/tags/income-expense-tracking/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/landscape-format/</loc>
+    <loc>http://localhost:1313/tags/investment-tracker/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/meeting-agenda/</loc>
+    <loc>http://localhost:1313/tags/kids-tasks/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/milestone-tracking/</loc>
+    <loc>http://localhost:1313/tags/landscape-format/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/monthly-tabs/</loc>
+    <loc>http://localhost:1313/tags/meeting-agenda-template/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/personal-organization/</loc>
+    <loc>http://localhost:1313/tags/meeting-organizer/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/phone-list/</loc>
+    <loc>http://localhost:1313/tags/milestone-tracking/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/portrait-layout/</loc>
+    <loc>http://localhost:1313/tags/monthly-tabs/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/printable-calendar/</loc>
+    <loc>http://localhost:1313/tags/personal-organization/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/product-cost-analysis/</loc>
+    <loc>http://localhost:1313/tags/phone-list/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/progress-tracking/</loc>
+    <loc>http://localhost:1313/tags/portrait-layout/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/categories/project-management/</loc>
+    <loc>http://localhost:1313/tags/printable-calendar/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/project-planning/</loc>
+    <loc>http://localhost:1313/tags/product-cost-analysis/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/risk-management/</loc>
+    <loc>http://localhost:1313/tags/progress-tracking/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/school-schedule/</loc>
+    <loc>http://localhost:1313/categories/project-management/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/task-management/</loc>
+    <loc>http://localhost:1313/tags/project-management-template/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/team-collaboration/</loc>
+    <loc>http://localhost:1313/tags/project-planning/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/yearly-calendar/</loc>
+    <loc>http://localhost:1313/tags/risk-management/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/yearly-planner/</loc>
+    <loc>http://localhost:1313/tags/school-schedule/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/academic-calendar-with-photos/</loc>
+    <loc>http://localhost:1313/tags/task-management/</loc>
+    <lastmod>2025-09-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/team-meeting-template/</loc>
+    <lastmod>2025-09-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/yearly-calendar/</loc>
+    <lastmod>2025-09-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/yearly-planner/</loc>
+    <lastmod>2025-09-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/templates/academic-calendar-with-photos/</loc>
     <lastmod>2025-09-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/categories/business--entrepreneurship/</loc>
+    <loc>http://localhost:1313/categories/business--entrepreneurship/</loc>
     <lastmod>2025-09-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/freelancer/</loc>
+    <loc>http://localhost:1313/tags/freelancer/</loc>
     <lastmod>2025-09-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/invoice/</loc>
+    <loc>http://localhost:1313/tags/invoice/</loc>
     <lastmod>2025-09-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/service-tracking/</loc>
+    <loc>http://localhost:1313/tags/service-tracking/</loc>
     <lastmod>2025-09-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/templates/simple-olive-green-timesheet-invoice/</loc>
+    <loc>http://localhost:1313/templates/simple-olive-green-timesheet-invoice/</loc>
     <lastmod>2025-09-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/tags/timesheet/</loc>
+    <loc>http://localhost:1313/tags/timesheet/</loc>
     <lastmod>2025-09-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/dmca/</loc>
+    <loc>http://localhost:1313/dmca/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/privacy/</loc>
+    <loc>http://localhost:1313/privacy/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/terms/</loc>
+    <loc>http://localhost:1313/terms/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/privacy-policy/</loc>
+    <loc>http://localhost:1313/privacy-policy/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/terms-of-service/</loc>
+    <loc>http://localhost:1313/terms-of-service/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://excelnav.com/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

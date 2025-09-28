@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meeting Organizer on ExcelNav</title>
+    <link>http://localhost:1313/tags/meeting-organizer/</link>
+    <description>Recent content in Meeting Organizer on ExcelNav</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/meeting-organizer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Free Adjustable Meeting Agenda Template Excel - Professional Business Meeting Planner</title>
+      <link>http://localhost:1313/templates/adjustable-meeting-agenda/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/templates/adjustable-meeting-agenda/</guid>
+      <description>&lt;h2 id=&#34;-adjustable-meeting-agendaxlsx--documentation&#34;&gt;📄 Adjustable Meeting Agenda.xlsx – Documentation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1detailed-description&#34;&gt;（1）Detailed Description&lt;/h3&gt;&#xA;&lt;p&gt;This spreadsheet is a highly adjustable meeting agenda template designed for various team meetings. Users simply input the estimated duration for each agenda item, and the sheet automatically calculates start and end times, ensuring a well-structured and timely meeting. Pre-filled with typical meeting segments (e.g., introductions, agenda review, strategy discussion), it is fully customizable. Suitable for both in-person and virtual meetings, it helps facilitators manage time effectively and improve meeting productivity.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

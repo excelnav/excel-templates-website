@@ -1,9 +1,9 @@
 ---
-title: "Adjustable meeting agenda"
-description: "This spreadsheet is a highly adjustable meeting agenda template designed for various team meetings. "
+title: "Free Adjustable Meeting Agenda Template Excel - Professional Business Meeting Planner"
+description: "Download our free adjustable meeting agenda template for Excel. Perfect for business meetings, team collaboration, and project management. Customizable format for any meeting type."
 date: 2025-09-25
 categories: ["Project Management"]
-tags: ["Meeting Agenda", "Time Management", "Team Collaboration", "Business Meeting"]
+tags: ["meeting agenda template", "business meeting planner", "team meeting template", "excel meeting agenda", "project management template", "meeting organizer", "agenda template free"]
 featured_image: "/images/templates/Adjustable meeting agenda.png"
 screenshots:
   - "/images/templates/Adjustable meeting agenda.png"

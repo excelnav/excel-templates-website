@@ -8,8 +8,8 @@ theme = "custom"
   # 分页配置
   paginate = 20
   paginatePath = "page"
-  description = "Download free professional Excel templates at ExcelNav.com. Boost your productivity with our carefully curated collection of business, finance, and personal spreadsheet templates."
-  keywords = "excel templates, free spreadsheets, business templates, productivity tools, budget tracker, invoice generator, project management"
+  description = "Download 100% free professional Excel templates and spreadsheets. Get instant access to budget trackers, invoice generators, project management tools, financial dashboards, and more. No registration required - start boosting your productivity today!"
+  keywords = "free excel templates, excel spreadsheets download, budget tracker excel, invoice template excel, project management excel, financial dashboard template, excel templates free download, business spreadsheet templates, personal budget excel, expense tracker template, excel calendar template, timesheet template excel, inventory management excel, excel dashboard templates, free office templates"
   author = "ExcelNav Team"
   enableAds = false # 审核期间关闭广告，审核通过后改为 true
   
@@ -27,14 +27,14 @@ theme = "custom"
       mobile_banner = "XXXXXXXXXX"      # 移动端横幅广告
   
   # 网站信息
-  siteName = "ExcelNav"
+  siteName = "Free Excel Templates-ExcelNav"
   siteUrl = "https://excelnav.com"
   contactEmail = "contact@excelnav.com"
   
   # 网站特色
-  hero_title = "Professional Excel Templates"
-  hero_subtitle = "Free, High-Quality Spreadsheet Templates for Every Need"
-  hero_description = "Download professionally designed Excel templates to streamline your work. From budgeting to project management, we've got you covered."
+  hero_title = "100% Free Excel Templates"
+  hero_subtitle = "Professional Spreadsheet Templates for Business & Personal Use"
+  hero_description = "Instantly download premium Excel templates at zero cost. Boost your productivity with our collection of budget trackers, invoice generators, project planners, and more. No registration required!"
 
 # 菜单配置
 [[menu.main]]

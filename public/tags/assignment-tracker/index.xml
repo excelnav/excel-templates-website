@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assignment Tracker on ExcelNav</title>
-    <link>https://excelnav.com/tags/assignment-tracker/</link>
+    <link>http://localhost:1313/tags/assignment-tracker/</link>
     <description>Recent content in Assignment Tracker on ExcelNav</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://excelnav.com/tags/assignment-tracker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/assignment-tracker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>《Ultimate Assignment Tracker: Course Management &#43; Dynamic Filters &#43; Progress Visualization》</title>
-      <link>https://excelnav.com/templates/assignment-schedule/</link>
+      <link>http://localhost:1313/templates/assignment-schedule/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/assignment-schedule/</guid>
+      <guid>http://localhost:1313/templates/assignment-schedule/</guid>
       <description>&lt;h2 id=&#34;excel-template--documentation&#34;&gt;Excel Template – Documentation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-detailed-description&#34;&gt;(1) ​Detailed Description​&lt;/h3&gt;&#xA;&lt;p&gt;《Assignment Schedule.xlsx》is an education-focused task tracking spreadsheet designed for students, instructors, or training coordinators. It features visual progress bars, course filters, and date sorting to manage multi-course assignments efficiently. The PivotTable supports dynamic refresh, while slicers enable quick filtering by course (e.g., Basic Life Support), instructor, progress percentage (0%-100%), or due date (e.g., due in 2 days). Ideal for monitoring strict deadlines in medical training (e.g., EMT, Anatomy).&lt;/p&gt;</description>
     </item>
   </channel>

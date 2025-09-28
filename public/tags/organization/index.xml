@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Organization on ExcelNav</title>
-    <link>https://excelnav.com/tags/organization/</link>
+    <link>http://localhost:1313/tags/organization/</link>
     <description>Recent content in Organization on ExcelNav</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://excelnav.com/tags/organization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/organization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Free 2025 Printable Excel Calendar Template | Editable &amp; Downloadable</title>
-      <link>https://excelnav.com/templates/any-year-calendar-ion-theme/</link>
+      <link>http://localhost:1313/templates/any-year-calendar-ion-theme/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/any-year-calendar-ion-theme/</guid>
+      <guid>http://localhost:1313/templates/any-year-calendar-ion-theme/</guid>
       <description>&lt;h2 id=&#34;excel-template--documentation&#34;&gt;Excel Template – Documentation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-detailed-description&#34;&gt;1. Detailed Description&lt;/h3&gt;&#xA;&lt;p&gt;The 2025 Full-Year Calendar Template is a customizable tool designed for individuals and teams, featuring complete monthly layouts from January to December 2025. With a clean Sunday-to-Saturday weekly view and unique date serials (e.g., 45655 for Jan 1, 2025), it includes dedicated &amp;ldquo;NOTES&amp;rdquo; sections for reminders. Ideal for daily planning or project tracking, this Excel-compatible file supports easy edits.&lt;/p&gt;&#xA;&lt;h3 id=&#34;2-use-cases&#34;&gt;2. Use Cases&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;​Personal Scheduling: Mark birthdays, anniversaries, or daily tasks.&lt;/p&gt;</description>
     </item>
   </channel>

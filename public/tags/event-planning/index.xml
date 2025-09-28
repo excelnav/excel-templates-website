@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Event Planning on ExcelNav</title>
-    <link>https://excelnav.com/tags/event-planning/</link>
+    <link>http://localhost:1313/tags/event-planning/</link>
     <description>Recent content in Event Planning on ExcelNav</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://excelnav.com/tags/event-planning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/event-planning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ultimate Baby Shower Planner Excel Template: Guest Lists, Budget &amp; Task Tracker</title>
-      <link>https://excelnav.com/templates/baby-shower-planner/</link>
+      <link>http://localhost:1313/templates/baby-shower-planner/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/baby-shower-planner/</guid>
+      <guid>http://localhost:1313/templates/baby-shower-planner/</guid>
       <description>&lt;h1 id=&#34;baby-shower-planner-template-organize-the-perfect-celebration-effortlessly&#34;&gt;Baby Shower Planner Template: Organize the Perfect Celebration Effortlessly&lt;/h1&gt;&#xA;&lt;h2 id=&#34;detailed-description&#34;&gt;Detailed Description&lt;/h2&gt;&#xA;&lt;p&gt;This Baby Shower Planner Excel template is designed to streamline every aspect of your baby shower event planning. It includes dedicated sections for guest management (tracking RSVPs, addresses, and party size), budget tracking (food/drinks, decorations, supplies), and task scheduling with time-sensitive reminders. The template features pre-formatted tables with auto-calculated totals, hidden instructional notes for guidance, and a clean layout for easy data entry. Ideal for hosts who want to avoid oversights, it ensures no detail is missed—from sending invitations to the final walkthrough before guests arrive.&lt;/p&gt;</description>
     </item>
   </channel>

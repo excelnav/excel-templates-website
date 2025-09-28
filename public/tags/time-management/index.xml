@@ -2,25 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Time Management on ExcelNav</title>
-    <link>https://excelnav.com/tags/time-management/</link>
+    <link>http://localhost:1313/tags/time-management/</link>
     <description>Recent content in Time Management on ExcelNav</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://excelnav.com/tags/time-management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/time-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Custom Yearly Calendar Template: Printable Excel Calendar for 2025</title>
-      <link>https://excelnav.com/templates/any-year-custom-calendar/</link>
+      <link>http://localhost:1313/templates/any-year-custom-calendar/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/any-year-custom-calendar/</guid>
+      <guid>http://localhost:1313/templates/any-year-custom-calendar/</guid>
       <description>&lt;h2 id=&#34;excel-template--documentation&#34;&gt;Excel Template – Documentation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-detailed-description&#34;&gt;(1). ​Detailed Description​&lt;/h3&gt;&#xA;&lt;p&gt;The Any Year Custom Calendar is a flexible Excel template that enables users to generate personalized calendars by customizing the year, start day, and theme styles. It supports printing or exporting as PDF, ideal for home, school, or office use. The template auto-adjusts date layouts, includes monthly labels and notes sections, helping users efficiently schedule events and track important dates.&lt;/p&gt;&#xA;&lt;h3 id=&#34;2-use-cases&#34;&gt;(2). ​Use Cases​&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;​Family Planning: Track birthdays, holidays, and family events.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Adjustable meeting agenda</title>
-      <link>https://excelnav.com/templates/adjustable-meeting-agenda/</link>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/adjustable-meeting-agenda/</guid>
-      <description>&lt;h2 id=&#34;-adjustable-meeting-agendaxlsx--documentation&#34;&gt;📄 Adjustable Meeting Agenda.xlsx – Documentation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1detailed-description&#34;&gt;（1）Detailed Description&lt;/h3&gt;&#xA;&lt;p&gt;This spreadsheet is a highly adjustable meeting agenda template designed for various team meetings. Users simply input the estimated duration for each agenda item, and the sheet automatically calculates start and end times, ensuring a well-structured and timely meeting. Pre-filled with typical meeting segments (e.g., introductions, agenda review, strategy discussion), it is fully customizable. Suitable for both in-person and virtual meetings, it helps facilitators manage time effectively and improve meeting productivity.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

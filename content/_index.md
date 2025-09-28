@@ -1,6 +1,7 @@
 ---
-title: "ExcelNav-100% Free Excel Templates"
-description: "Download free professional Excel templates at ExcelNav.com. Boost your productivity with our carefully curated collection of business, finance, and personal spreadsheet templates."
+title: "Free Excel Templates Download - 100% Professional Spreadsheets | ExcelNav"
+description: "Download 100% free professional Excel templates instantly. Get budget trackers, invoice generators, project management tools, financial dashboards & more. No registration required - boost your productivity today!"
+keywords: "free excel templates download, excel spreadsheet templates, budget tracker excel, invoice template free, project management excel, financial dashboard template, business templates excel, personal budget spreadsheet"
 type: "homepage"
 layout: "index"
 ---

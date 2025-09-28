@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Family Schedule on ExcelNav</title>
-    <link>https://excelnav.com/tags/family-schedule/</link>
+    <link>http://localhost:1313/tags/family-schedule/</link>
     <description>Recent content in Family Schedule on ExcelNav</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://excelnav.com/tags/family-schedule/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/family-schedule/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>12-Month calendar</title>
-      <link>https://excelnav.com/templates/12-month-calendar/</link>
+      <link>http://localhost:1313/templates/12-month-calendar/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://excelnav.com/templates/12-month-calendar/</guid>
+      <guid>http://localhost:1313/templates/12-month-calendar/</guid>
       <description>&lt;h2 id=&#34;file-structure&#34;&gt;&lt;strong&gt;File Structure&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1detailed-description&#34;&gt;（1）Detailed Description&lt;/h3&gt;&#xA;&lt;p&gt;This is a powerful and highly customizable 12-month calendar Excel template designed for personal, family, or team use. It includes 12 sheets—one for each month—with automatic weekday display and support for custom year and week start (Monday or Sunday). The clean layout features dedicated spaces for events, making it easy to track birthdays, meetings, holidays, and more. Ideal for daily time management, family planning, or team coordination, this template helps you stay organized and productive throughout the year.&lt;/p&gt;</description>
     </item>
   </channel>
